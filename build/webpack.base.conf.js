@@ -3,14 +3,13 @@ const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
-// const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
 module.exports = {
-  // context: path.resolve(__dirname, '../'),
   entry: ['./src/main.js'],
   output: {
     path: config.build.assetsRoot,
@@ -31,27 +30,22 @@ module.exports = {
   },
   module: {
     rules: [
-      // {
-      //   test: /icons\.js$/,
-      //   use: [
-      //     'style-loader', {
-      //       loader: 'css-loader',
-      //       options: {
-      //         url: false,
-      //       },
-      //     },
-      //     'postcss-loader',
-      //     'webfonts-loader',
-      //   ],
-      // },
+      {
+        test: /icons\.js$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              url: false,
+              importLoaders: 2,
+            },
+          }, 'postcss-loader', 'webfonts-loader'],
+      },
       {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')],
-      },
-      {
-        test: /\.pug$/,
-        loader: 'pug-plain-loader',
       },
       {
         test: /\.vue$/,

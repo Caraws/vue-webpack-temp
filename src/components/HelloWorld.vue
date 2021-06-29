@@ -28,13 +28,11 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
     <Button>123123</Button>
-    <Pug></Pug>
   </div>
 </template>
 
 <script>
 import { Button } from 'element-ui'
-import Pug from './pug'
 export default {
   name: 'HelloWorld',
   props: {
@@ -42,15 +40,14 @@ export default {
   },
   components: {
     Button,
-    Pug,
   },
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
 h3 {
-  margin: 40px 0 0;
+  margin: 40px 0 0; // 注释
 }
 ul {
   list-style-type: none;

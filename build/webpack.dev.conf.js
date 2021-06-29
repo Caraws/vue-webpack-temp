@@ -15,20 +15,6 @@ module.exports = merge(baseWebpackConfig, {
   module: {
     rules: [
       {
-        test: /icons\.js$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          {
-            loader: 'css-loader',
-            options: {
-              url: false,
-            },
-          },
-          'postcss-loader',
-          'webfonts-loader',
-        ],
-      },
-      {
         test: /\.css$|\.scss$/,
         use: [
           'vue-style-loader',
