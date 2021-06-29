@@ -25,12 +25,7 @@ module.exports = merge(baseWebpackConfig, {
             },
           },
           'postcss-loader',
-          {
-            loader: 'webfonts-loader',
-            options: {
-              // publicPath: '/static/',
-            },
-          },
+          'webfonts-loader',
         ],
       },
       {

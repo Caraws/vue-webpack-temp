@@ -7,16 +7,8 @@ const merge = require('webpack-merge')
 const baseWebpackConfig = require('./webpack.base.conf')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-// const ExtractTextPlugin = require('extract-text-webpack-plugin')
-// const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
-// const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
-// const Happypack = require('happypack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-
-// const os = require('os')
-
-// const happyThreadPool = Happypack.ThreadPool({size: os.cpus().length})
 
 const webpackConfig = merge(baseWebpackConfig, {
   mode: 'none',
@@ -112,24 +104,6 @@ const webpackConfig = merge(baseWebpackConfig, {
     ]),
   ],
 })
-
-if (config.build.productionGzip) {
-  const CompressionWebpackPlugin = require('compression-webpack-plugin')
-
-  webpackConfig.plugins.push(
-    new CompressionWebpackPlugin({
-      asset: '[path].gz[query]',
-      algorithm: 'gzip',
-      test: new RegExp(
-        '\\.(' +
-        config.build.productionGzipExtensions.join('|') +
-        ')$',
-      ),
-      threshold: 10240,
-      minRatio: 0.8,
-    }),
-  )
-}
 
 if (config.build.bundleAnalyzerReport) {
   const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin

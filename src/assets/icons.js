@@ -7,6 +7,5 @@ module.exports = {
   fontName: 'webfonts',
   classPrefix: 'icon-',
   types: ['eot', 'woff', 'woff2', 'ttf', 'svg'],
-  fixedWidth: true,
-  cssTemplate: './template.hbs',
+  fileName: '[fontname].[hash].[ext]',
 }
