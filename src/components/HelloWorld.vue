@@ -27,15 +27,23 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    <Button>123123</Button>
+    <Pug></Pug>
   </div>
 </template>
 
 <script>
+import { Button } from 'element-ui'
+import Pug from './pug'
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
-  }
+    msg: String,
+  },
+  components: {
+    Button,
+    Pug,
+  },
 }
 </script>
 

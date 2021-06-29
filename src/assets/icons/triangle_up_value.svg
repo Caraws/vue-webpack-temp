@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon / group / caret-up</title>
+    <defs>
+        <path d="M1.63489933,18.8053691 L22.357047,18.8053691 C23.790604,18.8053691 24.5073826,17.0738255 23.4926174,16.0590604 L13.1355705,5.69395973 C12.5073826,5.06577181 11.4845638,5.06577181 10.8563758,5.69395973 L0.499328859,16.0590604 C-0.515436242,17.0738255 0.201342282,18.8053691 1.63489933,18.8053691 Z" id="path-1"></path>
+    </defs>
+    <g id="icon-/-group-/-caret-up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#404040" xlink:href="#path-1"></use>
+    </g>
+</svg>

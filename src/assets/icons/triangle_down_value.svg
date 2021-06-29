@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon / group / caret-down</title>
+    <defs>
+        <path d="M1.63489933,0.194630872 L22.357047,0.194630872 C23.790604,0.194630872 24.5073826,1.9261745 23.4926174,2.9409396 L13.1355705,13.3060403 C12.5073826,13.9342282 11.4845638,13.9342282 10.8563758,13.3060403 L0.499328859,2.9409396 C-0.515436242,1.9261745 0.201342282,0.194630872 1.63489933,0.194630872 Z" id="path-1"></path>
+    </defs>
+    <g id="icon-/-group-/-caret-down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solid/caret-down" transform="translate(0.000000, 5.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#404040" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
