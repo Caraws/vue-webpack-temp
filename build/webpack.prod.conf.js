@@ -48,35 +48,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     // you can customize output by editing /index.html
     // see https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
-      filename: config.build.shell,
-      template: './src/shell/index.html',
-      chunks: ['manifest', 'vendor', 'async', 'shell'],
-      inject: true,
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true,
-        // more options:
-        // https://github.com/kangax/html-minifier#options-quick-reference
-      },
-    }),
-    new HtmlWebpackPlugin({
-      filename: config.build.factory,
-      template: './src/factory/index.html',
-      chunks: ['manifest', 'vendor', 'async', 'factory'],
-      inject: true,
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true,
-        // more options:
-        // https://github.com/kangax/html-minifier#options-quick-reference
-      },
-    }),
-    new HtmlWebpackPlugin({
-      filename: config.build.provider,
-      template: './src/provider/index.html',
-      chunks: ['manifest', 'vendor', 'async', 'provider'],
+      chunks: ['manifest', 'vendor', 'async'],
       inject: true,
       minify: {
         removeComments: true,

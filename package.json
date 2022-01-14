@@ -1,8 +1,8 @@
 {
-  "name": "b2b-bi-shell-frontend",
+  "name": "vue-webpack-temp",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "mandy <hitangman@gmail.com>",
+  "author": "Caraws <zzxxcclloopp@live.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --config build/webpack.dev.conf.js  --progress",

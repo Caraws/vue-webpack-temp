@@ -50,9 +50,7 @@ module.exports = {
 
   build: {
     // Template for index.html
-    shell: path.resolve(__dirname, `${env.build.outputPath}/bi-shell.html`),
-    factory: path.resolve(__dirname, `${env.build.outputPath}/bi-factory.html`),
-    provider: path.resolve(__dirname, `${env.build.outputPath}/provider.html`),
+    index: path.resolve(__dirname, `${env.build.outputPath}/index.html`),
 
     // Paths
     assetsRoot: path.resolve(__dirname, env.build.outputPath),
