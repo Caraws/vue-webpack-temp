@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "webfonts";
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class*=icon-] {
+  font-family: "webfonts";
+  font-style: normal;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

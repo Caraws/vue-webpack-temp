@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="iteration3工厂报表" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-4登录错误状态" transform="translate(-527.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M542.216,757.4645 L535.882,745.5895 C535.506,744.8835 534.494,744.8835 534.117,745.5895 L527.784,757.4645 C527.429,758.1305 527.912,758.9355 528.667,758.9355 L541.334,758.9355 C542.088,758.9355 542.571,758.1305 542.216,757.4645 Z M535,756.9355 C534.448,756.9355 534,756.4875 534,755.9355 C534,755.3835 534.448,754.9355 535,754.9355 C535.552,754.9355 536,755.3835 536,755.9355 C536,756.4875 535.552,756.9355 535,756.9355 Z M536,753.9355 L534,753.9355 L534,749.9355 L536,749.9355 L536,753.9355 Z" id="Mask"></path>
+        </g>
+    </g>
+</svg>
